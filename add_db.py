@@ -11,7 +11,7 @@ conn = psycopg2.connect(
 )
 cursor = conn.cursor()
 
-csv_folder = "csv_doc"
+csv_folder = "csv_doc"djefjorjgorjogpjejohthjrmotmjoh
 
 for file in os.listdir(csv_folder):
     if file.endswith(".csv"):
@@ -34,7 +34,7 @@ for file in os.listdir(csv_folder):
             cursor.execute(insert_query)
 
         conn.commit()
-
+efokforkfo
 cursor.close()
 conn.close()
 print("All CSV files have been successfully loaded.")
